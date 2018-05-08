@@ -6,20 +6,17 @@ public class Dsk {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int a =7;int i =0;
-		int day =0;
-		 while(true){
-			 day++;
-			i += 3;
-			if (i>=7) {
-				break;
-			}else {
-			i -= 2;}
+		double monny =10000;
+		double lixi ;
+		for (int year =1;year<=5;year++) {
+			 lixi =monny*0.003;
+			 monny +=lixi;}
+		   System.out.println(monny);
+		}
 			
-		}System.out.println(day);
+		
 	}
 		
-}
+
 
 	
